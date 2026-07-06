@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Hardware-lock check for a custom Odoo module.
+Windows Hardware-lock check for a custom Odoo module.
 
 USAGE
 -----
-1. Run get_cpu_id.py on the CLIENT's PC first, to find the value to use below.
+1. Run on the CLIENT's PC first to get cpu_id, use powershell cmd: 
+	(Get-CimInstance Win32_Processor | Select-Object -First 1).ProcessorId
 2. Paste that value into _LICENSED_CPU_ID.
 3. Drop this file into your module's root folder, next to __init__.py.
 4. At the very top of that module's __init__.py -- before any other imports --
