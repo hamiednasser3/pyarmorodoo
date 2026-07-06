@@ -22,6 +22,8 @@ USAGE
         "C:\Program Files\Odoo folder change it as yours\python\python.exe" -m pyarmor.cli gen --recursive -i --output "absolute folder path for encryption output" "absolute folder path of your custom module"
    
 7.  Copy with overwrite all generated content of encryption folder into the root folder of your custom module.
+8.  Delete all __pycache__ folders inside your module.
+9.  Restart odoo service.
 
    ***THAT'S ALL***
 
