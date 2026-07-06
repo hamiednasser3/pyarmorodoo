@@ -1,0 +1,2 @@
+# pyarmor
+Encrypting Odoo modules
