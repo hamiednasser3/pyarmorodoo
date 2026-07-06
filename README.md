@@ -24,3 +24,10 @@ USAGE
 7.  Copy with overwrite all generated content of encryption folder into the root folder of your custom module.
 
    ***THAT'S ALL***
+
+Notice:
+Install pyarmor if not yet installed:
+
+       pip install pyarmor
+
+
